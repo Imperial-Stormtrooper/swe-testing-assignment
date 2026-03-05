@@ -1,5 +1,5 @@
 """
-test_calculator.py — Test suite for Quick-Calc
+test_calculator.py — Full test suite for Quick-Calc (15 unit + 4 integration tests)
 Run with:  pytest test_calculator.py -v
 
 Covers:
