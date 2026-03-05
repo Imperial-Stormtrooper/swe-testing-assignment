@@ -1,4 +1,4 @@
-# Quick-Calc
+# Quick-Calc 🧮
 
 Quick-Calc is a lightweight desktop calculator application built with Python and tkinter. It supports the four fundamental arithmetic operations — addition, subtraction, multiplication, and division — delivered through a clean, dark-themed graphical user interface. The project was developed as part of a software engineering and testing assignment, with a strong emphasis on code quality, testability, and a well-structured multi-layered test suite.
 
