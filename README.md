@@ -30,7 +30,7 @@ https://www.python.org/downloads/
 
 Check installation in terminal:
 
-python --version
+~python --version~
 
 ---
 
@@ -38,11 +38,11 @@ python --version
 
 Install pytest using pip:
 
-pip install pytest
+~pip install pytest~
 
 Verify installation:
 
-pytest --version
+~pytest --version~
 
 ---
 
