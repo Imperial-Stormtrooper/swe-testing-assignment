@@ -29,7 +29,7 @@ def multiply(a: float, b: float) -> float:
 def divide(a: float, b: float) -> float:
     """Return a / b.  Raises ZeroDivisionError when b == 0."""
     if b == 0:
-        raise ZeroDivisionError("Cannot divide by zero")
+        raise ZeroDivisionError("Cannot divide by zero")  # handled gracefully in GUI
     return a / b
 
 
