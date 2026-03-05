@@ -1,22 +1,51 @@
 # Testing Strategy
 
+## Overview
+
+This project uses automated testing to verify the correctness of the calculator implementation.
+
+The tests are written using the pytest framework.
+
+---
+
 ## Unit Testing
 
-Each calculator function is tested individually.
+Unit tests verify individual calculator functions:
 
-Test cases include:
-- normal inputs
-- negative numbers
-- zero values
-- edge cases
+* add()
+* subtract()
+* multiply()
+* divide()
+
+Each function is tested independently.
+
+---
 
 ## Edge Cases
 
-Special attention was given to error handling.
+Special cases tested:
 
-Example:
-Division by zero raises a ValueError exception.
+Division by zero
 
-## Integration Testing
+This case ensures that the program correctly raises an error.
 
-Integration testing verifies that calculator functions work correctly when used together.
+---
+
+## Test Execution
+
+Tests can be executed using:
+
+pytest
+
+The framework automatically discovers files starting with **test_** and runs them.
+
+---
+
+## Why pytest?
+
+pytest was chosen because:
+
+* simple and readable syntax
+* automatic test discovery
+* powerful assertion system
+* widely used in Python development
