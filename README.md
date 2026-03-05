@@ -38,7 +38,7 @@ Check installation in terminal:
 
 Install pytest using pip:
 
-~pip install pytest~
+`pip install pytest`
 
 Verify installation:
 
