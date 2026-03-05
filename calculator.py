@@ -8,7 +8,7 @@ from tkinter import font as tkfont
 
 
 # ──────────────────────────────────────────────
-# Core calculation logic (pure functions, easy to unit-test)
+# # Core calculation logic — pure functions, isolated from GUI, easy to unit-test
 # ──────────────────────────────────────────────
 
 def add(a: float, b: float) -> float:
